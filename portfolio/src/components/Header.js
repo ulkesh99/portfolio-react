@@ -16,7 +16,7 @@ const Header = () => {
                     loop
                 />
                 </h3><br /><br />
-                <button type="button" class="btn-resume hover-zoom"><span>resume</span></button>
+               
             
             </div>
             
