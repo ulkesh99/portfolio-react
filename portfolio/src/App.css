@@ -60,16 +60,22 @@ nav ul li {
   z-index: 2;
 }
 
-.main-info h1, h3{
+.main-info h1{
   color: var(--primary-color);
   /* text-transform: uppercase; */
   /* font-weight: bold; */
   font-size: 90px;
 }
 
+.main-info p {
+  color: var(--primary-color);
+  font-size: 40px;
+  position: relative;
+}
+
 .typed-text{
   font-size: 2rem;
-  color: var(--primary-color);
+  color: var(--secondary-color)
 }
 
 .tsparticles-canvas-el{
