@@ -7,7 +7,7 @@ const Header = () => {
         <div className="header-wrapper">
             <div className="main-info">
                 <h1>Hi,I'm Ulkesh</h1>
-                <h3>I am a &nbsp; 
+                <p>I am a &nbsp; 
                 <Typed
                     className="typed-text"
                     strings={["Frontend Developer", "UI/UX Designer"]}
@@ -15,7 +15,7 @@ const Header = () => {
                     backSpeed={60}
                     loop
                 />
-                </h3><br /><br />
+                </p><br /><br />
                
             
             </div>
