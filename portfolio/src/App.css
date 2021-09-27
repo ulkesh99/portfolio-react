@@ -4,6 +4,7 @@
   --primary-color : #e76f51;         
   --secondary-color : #fec89a;
   --primary-dark: rgba(255,255,255,0);
+  --light-grey: #e9edc9;
 }
 
 body{
@@ -69,7 +70,7 @@ nav ul li {
 
 .main-info p {
   color: var(--primary-color);
-  font-size: 25px;
+  font-size: 20px;
   position: relative;
 }
 
@@ -127,4 +128,26 @@ nav ul li {
   .about-img{
     width: 20rem;
   }
+}
+
+.py-5{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.skills{
+  background-color: var(--light-grey) ;
+}
+
+.skills-heading{
+  text-decoration: underline 4px var(--primary-color);
+
+}
+
+.skills-logo{
+  height: 20vh;
+}
+
+.lang{
+  padding-left: 180px;
 }
