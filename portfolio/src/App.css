@@ -4,7 +4,7 @@
   --primary-color : #e76f51;         
   --secondary-color : #fec89a;
   --primary-dark: rgba(255,255,255,0);
-  --light-grey: #e9edc9;
+  --light-grey: #ccd5ae;
 }
 
 body{
@@ -149,5 +149,16 @@ nav ul li {
 }
 
 .lang{
-  padding-left: 180px;
+  padding-left: 100px;
+}
+
+.skills-title{
+  justify-content: space-between;
+  /* margin-left: 25px; */
+}
+
+@media(max-width: 468px){
+  .lang{
+    width: 20rem;
+  }
 }
