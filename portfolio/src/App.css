@@ -69,7 +69,7 @@ nav ul li {
 
 .main-info p {
   color: var(--primary-color);
-  font-size: 40px;
+  font-size: 25px;
   position: relative;
 }
 
@@ -111,4 +111,20 @@ nav ul li {
   justify-content: center;
   align-content: center;
   z-index: 1;
+}
+
+.about-img{
+  height: 450px;
+}
+
+
+.about-header{
+  text-transform: uppercase;
+  text-decoration: underline  4px var(--primary-color);
+}
+
+@media(max-width: 468px){
+  .about-img{
+    width: 20rem;
+  }
 }
