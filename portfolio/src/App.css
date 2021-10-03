@@ -156,6 +156,7 @@ nav ul li {
 .skills-title{
   justify-content: space-between;
   /* margin-left: 25px; */
+  padding-left: 20px;
 }
 
 @media(max-width: 468px){
@@ -166,16 +167,19 @@ nav ul li {
 
 
 .portfolio-wrapper{
-  padding: 1rem 0;
-  margin-left: 2.5rem;
-  justify-content: space-evenly;
-  /* padding-left: 5rem; */
+  padding: 1rem 1rem;
+  /* margin-left: 2.5rem; */
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* padding-left: 2rem; */
 }
 
 .portfolio-image{
   width: 15rem !important;
-  height: 9rem;
+  height: 10rem;
   border: 2px solid var(--primary-color);
+  /* padding-right: 60px; */
   justify-content: space-evenly;
 }
 
@@ -187,6 +191,7 @@ nav ul li {
   position: relative !important;
   margin: 2rem;
   /* padding-bottom: 20px !important; */
+  /* padding-right: 100px; */
   justify-content: space-evenly;
   display: inline-flex;
 }
@@ -194,7 +199,7 @@ nav ul li {
 
 @media(max-width: 468px){
   .portfolio-wrapper{
-    width:15rem;
+    width:20rem;
   }
 }
 
@@ -202,7 +207,7 @@ nav ul li {
   position: absolute;
   background-color: var(--primary-black) !important;
   width: 15rem !important;
-  height: 9rem;
+  height: 10rem;
   top: 0;
   border: 2px solid var(--primary-color);
   cursor: pointer;
