@@ -2,42 +2,48 @@ import React from 'react'
 
 const Skills = () => {
     return (
-        <div className="skills">
-            <h1 className="skills-heading py-5">my skills</h1>
-            <div className="container-fluid">
-                <div className="lang">
-                 <div className="row">
-                        <div className="col-md-3 col-sm-6">
-                            <div className="box">
-                            <img class="skills-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /><br />
-                                <h3 class="skills-title">JavaScript</h3>
-                            </div><br /><br />
-                        </div>
-
-                        <div className="col-md-3 col-sm-6">
-                            <div className="box">
-                            <img class="skills-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /><br />
-                                <h3 class="skills-title">React</h3>
-                            </div><br /><br />
-                        </div>
-
-                        <div className="col-md-3 col-sm-6">
-                            <div className="box"><img class="skills-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" /><br />
-                                <h3 class="skills-title">MySQL</h3>
-                            </div><br /><br />
-                        </div>
-
-                        <div className="col-md-3 col-sm-6">
-                            <div className="box">
-                            <img class="skills-logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
-
-                                <h3 class="skills-title">Figma</h3>
-                            </div><br /><br />
-                        </div>
-                    </div>
-                    </div>
-                </div>
+        <div className="skills-container ">
+      <h2 className="skills-heading">my skills</h2>
+      <div className="skills-flex-container">
+  
+      <div className="skills-wrapper">
+        <div className="skills-logo">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt=""></img>
         </div>
+        <div className="skills-name">
+            <h2>JavaScript</h2>
+        </div>
+      </div>
+
+      <div className="skills-wrapper">
+        <div className="skills-logo">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt=""></img>
+        </div>
+        <div className="skills-name">
+          <h2>React</h2>
+        </div>
+      </div>
+
+      <div className="skills-wrapper">
+        <div className="skills-logo">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt=""></img>
+        </div>
+        <div className="skills-name">
+          <h2>Figma</h2>
+        </div>
+      </div>
+
+      <div className="skills-wrapper">
+        <div className="skills-logo">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt=""></img>
+        </div>
+        <div className="skills-name">
+          <h2>MySQL</h2>
+        </div>
+      </div>
+      </div>
+  </div>
+
     )
 }
 
