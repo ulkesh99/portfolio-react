@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Portfolio from './components/Portfolio';
+import Contacts from './components/Contacts';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
       <AboutMe />
       <Skills />
       <Portfolio />
+      <Contacts />
 
     </div>
   );
