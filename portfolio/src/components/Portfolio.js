@@ -93,7 +93,7 @@ const Portfolio = () => {
 
 
     return (
-        <div className="container">
+        <div id="portfolio" className="container">
             <h2 className="project-heading">my projects</h2>
                 <div className="project-container">
                 <div className="portfolio-img-1" onClick={openPopubboxStocks} >

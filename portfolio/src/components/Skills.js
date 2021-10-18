@@ -3,7 +3,7 @@ import 'animate.css';
 
 const Skills = () => {
     return (
-        <div className=" animate__animated animate__zoomInDown skills-container ">
+        <div id="skills" className="skills-container ">
       <h2 className="skills-heading">my skills</h2>
       <div className="skills-flex-container">
   
